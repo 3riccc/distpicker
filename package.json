@@ -1,8 +1,8 @@
 {
-  "name": "distpicker",
+  "name": "konishileedistpicker",
   "description": "A simple jQuery plugin for picking provinces, cities and districts of China.",
   "version": "1.0.1",
-  "main": "dist/distpicker.js",
+  "main": "konishileedistpicker.js",
   "keywords": [
     "中国",
     "省份",
@@ -34,13 +34,13 @@
     "name": "Fengyuan Chen",
     "url": "https://github.com/fengyuanchen"
   },
-  "homepage": "https://github.com/fengyuanchen/distpicker",
+  "homepage": "https://github.com/KonishiLee/distpicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fengyuanchen/distpicker.git"
+    "url": "https://github.com/KonishiLee/distpicker.git"
   },
   "bugs": {
-    "url": "https://github.com/fengyuanchen/distpicker/issues"
+    "url": "https://github.com/KonishiLee/distpicker/issues"
   },
   "license": "MIT",
   "dependencies": {
