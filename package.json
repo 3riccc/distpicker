@@ -30,10 +30,7 @@
     "web",
     "development"
   ],
-  "author": {
-    "name": "konishilee",
-    "url": "https://github.com/KonishiLee"
-  },
+  "author": "konishilee (https://github.com/KonishiLee)",
   "homepage": "https://github.com/KonishiLee/distpicker",
   "repository": {
     "type": "git",
@@ -54,5 +51,11 @@
     "gulp-rename": "^1.2.0",
     "gulp-replace": "^0.5.3",
     "gulp-uglify": "^1.1.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "'China map distpicker'"
   }
 }

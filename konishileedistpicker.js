@@ -5,18 +5,14 @@
  * Copyright (c) 2014-2015 Fengyuan Chen
  * Released under the MIT license
  *
- * Date: 2015-09-06T02:23:07.121Z
+ * Date: 2015-09-06T02:23:07.124Z
  */
 
 (function (factory) {
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as anonymous module.
-    define('ChineseDistricts', [], factory);
-  } else {
-    // Browser globals.
-    factory();
-  }
-})(function () {
+  factory(jQuery);
+})(function ($) {
+
+  'use strict';
 
   var ChineseDistricts = {
     1: {
@@ -4507,39 +4503,6 @@
       990100: '海外'
     }
   };
-
-  if (typeof window !== 'undefined') {
-    window.ChineseDistricts = ChineseDistricts;
-  }
-
-  return ChineseDistricts;
-
-});
-
-/*!
- * Distpicker v1.0.1
- * https://github.com/fengyuanchen/distpicker
- *
- * Copyright (c) 2014-2015 Fengyuan Chen
- * Released under the MIT license
- *
- * Date: 2015-09-06T02:23:07.124Z
- */
-
-(function (factory) {
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as anonymous module.
-    define(['jquery', 'ChineseDistricts'], factory);
-  } else if (typeof exports === 'object') {
-    // Node / CommonJS
-    factory(require('jquery'), require('ChineseDistricts'));
-  } else {
-    // Browser globals.
-    factory(jQuery, ChineseDistricts);
-  }
-})(function ($, ChineseDistricts) {
-
-  'use strict';
 
   if (typeof ChineseDistricts === 'undefined') {
     throw new Error('The file "distpicker.data.js" must be included first!');
