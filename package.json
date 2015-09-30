@@ -1,7 +1,7 @@
 {
   "name": "konishileedistpicker",
   "description": "A simple jQuery plugin for picking provinces, cities and districts of China.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "konishileedistpicker.js",
   "keywords": [
     "中国",
